@@ -3,11 +3,5 @@
 .log
 target/
 .env
-<<<<<<< HEAD
-.vscode
-.bin
-.json
-=======
 .vscode/
 .bin/
->>>>>>> b3a628fd8656419b41cb361cbb152a7480b6563d
