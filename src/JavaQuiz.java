@@ -33,7 +33,7 @@ public class JavaQuiz {
             System.out.println(VERDE + "¡Correcto!" + RESET);
             aciertos++;
         }else{
-            System.out.println(ROJO + "¡Incorrecto!" + RESET);
+            System.out.println(ROJO + "¡Incorrecto!" + RESET); 
         }
         
 
