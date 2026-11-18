@@ -51,8 +51,24 @@ public class JavaQuiz {
         }else{
             System.out.println(ROJO + "¡Incorrecto!" + RESET);
         }
-        
-        
+
+        System.out.println("Pregunta 3. ¿Como se expresa la comparacion 'esto y esto' en Java?");
+        System.out.println("A) &&");
+        System.out.println("B) ||");
+        System.out.println("C) %%");
+        System.out.print("Respuesta: ");
+        respuesta3 = sc.nextLine();
+
+        if (respuesta3.equalsIgnoreCase("a")){
+            System.out.println(VERDE + "¡Correcto!" + RESET);
+            aciertos++;
+        }else{
+            System.out.println(ROJO + "¡Incorrecto!" + RESET);
+        }
+
+
+
+        System.out.println("Numero de aciertos: " + aciertos);
 
 
     }
