@@ -29,12 +29,29 @@ public class JavaQuiz {
         System.out.print("Respuesta: ");
         respuesta1 = sc.nextLine();
 
+        // declaramos las condiciones para confirmar que sea correcta la opcion
+
         if (respuesta1.equalsIgnoreCase("c")){
             System.out.println(VERDE + "¡Correcto!" + RESET);
             aciertos++;
         }else{
             System.out.println(ROJO + "¡Incorrecto!" + RESET); 
         }
+
+        System.out.println("Pregunta 2. ¿Con que se comparan las cadenas en java?");
+        System.out.println("A) .equals");
+        System.out.println("B) .equalString");
+        System.out.println("C) ==");
+        System.out.print("Respuesta: ");
+        respuesta2 = sc.nextLine();
+
+        if (respuesta2.equalsIgnoreCase("a")){
+            System.out.println(VERDE + "¡Correcto!" + RESET);
+            aciertos++;
+        }else{
+            System.out.println(ROJO + "¡Incorrecto!" + RESET);
+        }
+        
         
 
 
