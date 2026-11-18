@@ -91,6 +91,23 @@ public class JavaQuiz {
             System.out.println(VERDE + "Correcto!!!" + RESET);
             aciertos++;
 
+        }else
+            System.out.println(ROJO + "Incorrecto!!!" + RESET);
+
+        System.out.println("6) ¿Se debe poner un break en un bucle if?");
+        System.out.println("A) No,no se puede.");
+        System.out.println("B) Si, pero no se debe.");
+        System.out.println("C) Si.");
+        respuesta6 = sc.nextLine();
+
+        if (respuesta4.equalsIgnoreCase("b")) {
+
+            System.out.println(VERDE + "Correcto!!!" + RESET);
+            aciertos++;
+            
+        }else
+            System.out.println(ROJO + "Incorrecto!!!" + RESET);
+
 
         System.out.println("Numero de aciertos: " + aciertos);
 
