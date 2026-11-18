@@ -67,7 +67,7 @@ Fin del concurso.
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/<usuario>/JavaQuiz-UT3.git
+git clone https://github.com/Lucosso/JavaQuizUt-3
 cd JavaQuiz-UT3
 ```
 
@@ -111,9 +111,9 @@ JavaQuiz-UT3/
 
 El código está organizado en `main` con zonas comentadas para facilitar el trabajo colaborativo sin conflictos:
 
-- `INICIO / FIN RONDA 1 - INTEGRANTE A`
-- `INICIO / FIN RONDA 2 - INTEGRANTE B`
-- `RESULTADO FINAL - INTEGRANTE B`
+- `INICIO / FIN RONDA 1 - LUCAS`
+- `INICIO / FIN RONDA 2 - ALEX`
+- `RESULTADO FINAL - ALEX`
 
 ## Flujo de trabajo con Git
 
@@ -132,6 +132,8 @@ Excluye archivos compilados, temporales, registros, salidas de Maven y configura
 *.log
 target/
 .env
+.vscode
+.bin
 ```
 
 ## Tecnologías
