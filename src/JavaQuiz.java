@@ -66,6 +66,19 @@ public class JavaQuiz {
             System.out.println(ROJO + "¡Incorrecto!" + RESET);
         }
 
+        System.out.println("4) ¿Que hace la función de math.random?");
+        System.out.println("A) generar un número aleatorio.");
+        System.out.println("B) generar una operacion aleatoria.");
+        System.out.println("C) generar un número aleatorio entre 0 y 1.");
+        respuesta4 = sc.nextLine();
+
+        if (respuesta4.equalsIgnoreCase("c")) {
+
+            System.out.println(VERDE + "Correcto!!!" + RESET);
+            aciertos++;
+            
+        }else
+            System.out.println(ROJO + "Incorrecto!!!" + RESET);
 
 
         System.out.println("Numero de aciertos: " + aciertos);
