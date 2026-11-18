@@ -80,6 +80,17 @@ public class JavaQuiz {
         }else
             System.out.println(ROJO + "Incorrecto!!!" + RESET);
 
+        System.out.println("5) ¿Por que numero se empieza a contar la posicion de un Array");
+        System.out.println("A) 0.");
+        System.out.println("B) 1.");
+        System.out.println("C) -1.");
+        respuesta5 = sc.nextLine();
+
+        if (respuesta5.equalsIgnoreCase("a")) {
+
+            System.out.println(VERDE + "Correcto!!!" + RESET);
+            aciertos++;
+
 
         System.out.println("Numero de aciertos: " + aciertos);
 
